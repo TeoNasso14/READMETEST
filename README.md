@@ -80,7 +80,7 @@ Prima di procedere con l'installazione, assicurati che il valore di `max upload 
 1. Vai su **🔌 Plugin > Aggiungi Nuovo**.
 2. 🔎 Cerca **"Advanced Editor Tool"**.
 3. 📥 Installa e attiva il plugin.
-4. Vai su **ACF > Strumenti**.
+4. Vai su **Plugin > Advanced Editor Tool > Impostazioni > Importa**.
 5. 📂 Importa le impostazioni da `assets`.
 
 ### 🛠️ 2. Installazione e Configurazione di ACF Plugin
