@@ -4,7 +4,7 @@
 1. Assicurati che il valore di `max upload size` sia adeguato. Puoi verificarlo in:
    - **🛠️ Strumenti > Salute del Sito**
    - Oppure eseguendo `phpinfo()`
-   - 10mb sono perfetti
+   - 10mb comunque verificare la versione della cartella prima di procedere
 2. Assicurarsi che le versioni di plugin e wordpress siano allineate con quelle in collaudo
 
 ## 🏗️ 1. Modifiche alle Pagine e ai Componenti Esistenti
