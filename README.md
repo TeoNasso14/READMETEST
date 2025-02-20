@@ -4,7 +4,7 @@
 1. Assicurati che il valore di `max upload size` sia adeguato. Puoi verificarlo in:
    - **🛠️ Strumenti > Salute del Sito**
    - Oppure eseguendo `phpinfo()`
-2. Assicurarsi che le versioni di ... siano allineate con quelle in collaudo [TODO]
+2. Assicurarsi che le versioni di plugin e wordpress siano allineate con quelle in collaudo
 
 ## 🏗️ 1. Modifiche alle Pagine e ai Componenti Esistenti
 ### 📝 Pagina **Formazione - Panoramica**
@@ -81,14 +81,14 @@ Prima di procedere con l'installazione, assicurati che il valore di `max upload 
 2. 🔎 Cerca **"Advanced Editor Tool"**.
 3. 📥 Installa e attiva il plugin.
 4. Vai su **Plugin > Advanced Editor Tool > Impostazioni > Importa**.
-5. 📂 Importa le impostazioni da `assets`.
+5. 📂 Importa le impostazioni da `resources`.
 
 ### 🛠️ 2. Installazione e Configurazione di ACF Plugin
 1. Vai su **🔌 Plugin > Aggiungi Nuovo**.
 2. 🔎 Cerca **"Advanced Custom Fields Pro"**.
 3. 📥 Installa e attiva il plugin.
 4. Vai su **ACF > Strumenti**.
-5. 📂 Importa i campi personalizzati necessari da `assets`.
+5. 📂 Importa i campi personalizzati necessari da `resources`.
 
 
 ---
@@ -106,7 +106,7 @@ Prima di procedere con l'installazione, assicurati che il valore di `max upload 
 ## 📥 8. Importazione dei Contenuti di FAQ, Risorse e Sidebar
 1. Vai su **📂 Strumenti > Importa**.
 2. Seleziona **WordPress** e clicca su **Installa Ora**.
-3. 📂 Carica i file necessari dalla cartella `assets`.
+3. 📂 Carica i file necessari dalla cartella `resources`.
 4. 💾 Salva le modifiche.
 
 ---
@@ -116,9 +116,9 @@ Prima di procedere con l'installazione, assicurati che il valore di `max upload 
   2. Durante la configurazione selezionare **Sidebar**.
 
 ---
-## 🖼️ 10. Importazione Immagini per "Guida alla Piattaforma"
+## 🖼️ 10. Importazione Immagini per "Guida alla Piattaforma", "Footer" e "Favicon"
 1. Vai su **📂 Media > Aggiungi Nuovo**.
-2. 📤 Carica le immagini necessarie per la pagina "Guida alla Piattaforma".
+2. 📤 Carica le immagini necessarie dalla cartella `resources/media`.
 
 ---
 ## 🌐 11. Importazione e Caricamento della Favicon
