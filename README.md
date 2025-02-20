@@ -41,7 +41,6 @@
 3. 📂 Sostituisci l'intero contenuto con il file `single-faq.php` presente in `utils/templates`.
 4. 💾 Salva le modifiche.
 
-
 ---
 ## 📌 5. Modifiche al Menu
 ### 📑 Contenuto
@@ -99,9 +98,18 @@ Prima di procedere con l'installazione, assicurati che il valore di `max upload 
 4. Vai su **ACF > Strumenti**.
 5. 📂 Importa i campi personalizzati necessari da `resources`.
 
+---
+## 🛠️ 8. Aggiornamento dei plugin 
+- Andare su Plugin > Plugin Installati
+- Aggiornare:
+  - Advanced Custom Fields PRO 
+  - Media Cleaner
+  - Simple Custom CSS and JS
+  - SVG Support
+  - Yoast SEO
 
 ---
-## 📄 8. Creazione della Pagina "Domande Frequenti"
+## 📄 9. Creazione della Pagina "Domande Frequenti"
 1. Vai su **📑 Pagine > Aggiungi Nuova**.
 2. ✏️ Imposta il titolo **"Domande Frequenti"**.
 3. Inserisci il seguente shortcode nel contenuto della pagina:
@@ -112,25 +120,25 @@ Prima di procedere con l'installazione, assicurati che il valore di `max upload 
 5. 🆔 Imposta lo **slug** a `domande-frequenti`.
 6. 💾 Salva e pubblica la pagina.
 
-## 📥 9. Importazione dei Contenuti di FAQ, Risorse e Sidebar
+## 📥 10. Importazione dei Contenuti di FAQ, Risorse e Sidebar
 1. Vai su **📂 Strumenti > Importa**.
 2. Seleziona **WordPress** e clicca su **Installa Ora**.
 3. 📂 Carica i file necessari dalla cartella `resources`.
 4. 💾 Salva le modifiche.
 
 ---
-## 🏗️ 10. Configurazione della Sidebar
+## 🏗️ 11. Configurazione della Sidebar
 - 🛠️ Correzione dei link della sidebar:
   1. 🔌 Installare il plugin **remove CPT base**.
   2. Durante la configurazione selezionare **Sidebar**.
 
 ---
-## 🖼️ 11. Importazione Immagini per "Guida alla Piattaforma", "Footer" e "Favicon"
+## 🖼️ 12. Importazione Immagini per "Guida alla Piattaforma", "Footer" e "Favicon"
 1. Vai su **📂 Media > Aggiungi Nuovo**.
 2. 📤 Carica le immagini necessarie dalla cartella `resources/media`.
 
 ---
-## 🌐 12. Importazione e Caricamento della Favicon
+## 🌐 13. Importazione e Caricamento della Favicon
 1. Vai su **🎨 Aspetto > Personalizza > Denominazione del Sito**.
 2. 📤 Carica la favicon nel formato consigliato (`.ico`, `.png`, `.svg`).
 3. 💾 Salva le modifiche.
