@@ -1,104 +1,130 @@
 # 📌 Installazione e Configurazione Plugin & Modifiche al Tema
 
-## 1. Modifiche alle Pagine e ai Componenti Esistenti
+## 🔧 0. Prerequisiti
+1. Assicurati che il valore di `max upload size` sia adeguato. Puoi verificarlo in:
+   - **🛠️ Strumenti > Salute del Sito**
+   - Oppure eseguendo `phpinfo()`
+2. Assicurarsi che le versioni di ... siano allineate con quelle in collaudo [TODO]
+
+## 🏗️ 1. Modifiche alle Pagine e ai Componenti Esistenti
 ### 📝 Pagina **Formazione - Panoramica**
 - Rimuovere "- Panoramica" da:
-  - Titolo
-  - Breadcrumbs
-  - Slug
+  - 🏷️ Titolo
+  - 🔗 Breadcrumbs
+  - 🆔 Slug
 
 ### ✉️ Modifica **Scrivimi mail** (accessibile dalla Homepage)
 - Aggiungere la classe `d-none` all'elemento originale.
 
 ### 📝 Modifica del Margine in **Privacy Policy, Media Policy e Note Legali**
-1. Seleziona il contenuto della pagina e fai clic su **Modifica il layout**.
-2. Vai su **Modifica > Layout**.
+1. Seleziona il contenuto della pagina e fai clic su **🖋️ Modifica il layout**.
+2. Vai su **⚙️ Modifica > Layout**.
 3. Modifica il margine superiore impostandolo a `-2rem`.
-4. Salva le modifiche.
+4. 💾 Salva le modifiche.
+
+### 📝 Modifiche alle Pagine **Media Policy, Note Legali, Privacy Policy**
+- ✏️ Modificare breadcrumb e titolo delle pagine per adeguare l'utilizzo delle minuscole.
+- 🔍 In **Note Legali**, verificare il comportamento del link esterno spuntando l'opzione per l'apertura in un'altra scheda.
 
 ---
-## 2. 🔧 Modifiche al Footer
-1. Vai su **Aspetto > Editor del Tema**.
+## 🏗️ 2. Modifiche al Footer
+1. Vai su **🎨 Aspetto > Editor del Tema**.
 2. Apri il file `footer.php`.
-3. Sostituisci l'intero contenuto con il file `footer.php` presente in `utils/templates`.
-4. Salva le modifiche.
+3. 📂 Sostituisci l'intero contenuto con il file `footer.php` presente in `utils/templates`.
+4. 💾 Salva le modifiche.
 
 ---
-## 3. 🏗️ Modifiche al Menu
-### Contenuto
-1. Vai su **Aspetto > Editor del Tema**.
+## 📌 3. Modifiche al Menu
+### 📑 Contenuto
+1. Vai su **🎨 Aspetto > Editor del Tema**.
 2. Apri il file `menu.php`.
-3. Sostituisci l'intero contenuto con il file `menu.php` presente in `utils/templates`.
-4. Salva le modifiche.
-### Elementi
-1. Vai su **Aspetto > Menu**.
-2. Aggiungi o modifica gli elementi del menu secondo le tue necessità.
-  -> Accessibilità per (link personalizzato) con al suo interno
-      -> Pubbliche Amministrazioni
-      -> Soggetti privati
-      -> Cittadini
-      -> Designer e developers
-  -> Formazione
-  -> Risorse 
-  -> PNRR (tipo sidebar)
-3. Salva le modifiche.
+3. 📂 Sostituisci l'intero contenuto con il file `menu.php` presente in `utils/templates`.
+4. 💾 Salva le modifiche.
+### 🔗 Elementi
+1. Vai su **🎨 Aspetto > Menu**.
+2. ➕ Aggiungi o modifica gli elementi del menu secondo le tue necessità.
+  - **📂 Accessibilità per** (link personalizzato) con al suo interno:
+    - 🏛️ Pubbliche Amministrazioni
+    - 👤 Soggetti privati
+    - 🏠 Cittadini
+    - 💻 Designer e developers
+  - 📚 Formazione
+  - 📎 Risorse
+  - 🇪🇺 PNRR (tipo sidebar)
+3. 💾 Salva le modifiche.
 
 ---
-## 4. 🔍 Modifiche al Search Form
-1. Vai su **Aspetto > Editor del Tema**.
+## 🔍 4. Modifiche al Search Form
+1. Vai su **🎨 Aspetto > Editor del Tema**.
 2. Apri il file `searchform.php`.
-3. Alla riga 4, aggiungi `type="submit"` al tag del pulsante.
-4. Salva le modifiche.
+3. 🛠️ Alla riga 4, aggiungi `type="submit"` al tag del pulsante.
+4. 💾 Salva le modifiche.
 
 ---
-## 5. 📦 Installazione del Plugin "AgidUtility"
+## 📦 5. Installazione del Plugin "AgidUtility"
 ### ✅ Verifica **Max Upload Size**
 Prima di procedere con l'installazione, assicurati che il valore di `max upload size` sia adeguato. Puoi verificarlo in:
-- **Strumenti > Salute del Sito**
+- **🛠️ Strumenti > Salute del Sito**
 - Oppure eseguendo `phpinfo()`
 
 ### 📥 Installazione
-1. Vai su **Plugin > Aggiungi Nuovo**.
-2. Clicca su **Carica Plugin**.
-3. Trascina il file `AgidUtility.zip`.
-4. Clicca su **Installa Ora**, poi **Attiva**.
+1. Vai su **🔌 Plugin > Aggiungi Nuovo**.
+2. Clicca su **📤 Carica Plugin**.
+3. 📂 Trascina il file `AgidUtility.zip`.
+4. Clicca su **📥 Installa Ora**, poi **✅ Attiva**.
 
 ---
-## 6. 🛠️ Installazione e Configurazione di ACF Plugin
-1. Vai su **Plugin > Aggiungi Nuovo**.
-2. Cerca **"Advanced Custom Fields Pro"**.
-3. Installa e attiva il plugin.
-4. Importa i campi personalizzati necessari da `assets`.
+## 🛠️ 6. Installazione e Configurazione dei vari plugins
+
+### 🛠️ 1. Installazione e Configurazione di Advanced Editor Tool
+1. Vai su **🔌 Plugin > Aggiungi Nuovo**.
+2. 🔎 Cerca **"Advanced Editor Tool"**.
+3. 📥 Installa e attiva il plugin.
+4. Vai su **ACF > Strumenti**.
+5. 📂 Importa le impostazioni da `assets`.
+
+### 🛠️ 2. Installazione e Configurazione di ACF Plugin
+1. Vai su **🔌 Plugin > Aggiungi Nuovo**.
+2. 🔎 Cerca **"Advanced Custom Fields Pro"**.
+3. 📥 Installa e attiva il plugin.
+4. Vai su **ACF > Strumenti**.
+5. 📂 Importa i campi personalizzati necessari da `assets`.
+
 
 ---
-## 7. 📄 Creazione della Pagina "Domande Frequenti"
-1. Vai su **Pagine > Aggiungi Nuova**.
-2. Imposta il titolo **"Domande Frequenti"**.
+## 📄 7. Creazione della Pagina "Domande Frequenti"
+1. Vai su **📑 Pagine > Aggiungi Nuova**.
+2. ✏️ Imposta il titolo **"Domande Frequenti"**.
 3. Inserisci il seguente shortcode nel contenuto della pagina:
    ```md
    [filter_categories]
    ```
-4. Seleziona come **template** la versione senza sidebar.
-5. Imposta lo **slug** a `domande-frequenti`.
-6. Salva e pubblica la pagina.
+4. Seleziona come **🖼️ template** la versione senza sidebar.
+5. 🆔 Imposta lo **slug** a `domande-frequenti`.
+6. 💾 Salva e pubblica la pagina.
+
+## 📥 8. Importazione dei Contenuti di FAQ, Risorse e Sidebar
+1. Vai su **📂 Strumenti > Importa**.
+2. Seleziona **WordPress** e clicca su **Installa Ora**.
+3. 📂 Carica i file necessari dalla cartella `assets`.
+4. 💾 Salva le modifiche.
 
 ---
-## 8. 🏗️ Configurazione della Sidebar
-- Importare i seguenti elementi:
-  - **PNRR**
-  - **Guida alla Piattaforma**
-- [TODO] Correggere eventuali link presenti nella sidebar.
+## 🏗️ 9. Configurazione della Sidebar
+- 🛠️ Correzione dei link della sidebar:
+  1. 🔌 Installare il plugin **remove CPT base**.
+  2. Durante la configurazione selezionare **Sidebar**.
 
 ---
-## 9. 🖼️ Importazione Immagini per "Guida alla Piattaforma"
-1. Vai su **Media > Aggiungi Nuovo**.
-2. Carica le immagini necessarie per la pagina "Guida alla Piattaforma".
+## 🖼️ 10. Importazione Immagini per "Guida alla Piattaforma"
+1. Vai su **📂 Media > Aggiungi Nuovo**.
+2. 📤 Carica le immagini necessarie per la pagina "Guida alla Piattaforma".
 
 ---
-## 10. 🌐 Importazione e Caricamento della Favicon
-1. Vai su **Aspetto > Personalizza > Denominazione del Sito**.
-2. Carica la favicon nel formato consigliato (`.ico`, `.png`, `.svg`).
-3. Salva le modifiche.
+## 🌐 11. Importazione e Caricamento della Favicon
+1. Vai su **🎨 Aspetto > Personalizza > Denominazione del Sito**.
+2. 📤 Carica la favicon nel formato consigliato (`.ico`, `.png`, `.svg`).
+3. 💾 Salva le modifiche.
 
 ---
 ## 🔔 Note Finali
